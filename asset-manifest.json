@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/YuvrajBhardawaj/Contact_Manager.git/static/css/main.764036a6.css",
+    "main.js": "/YuvrajBhardawaj/Contact_Manager.git/static/js/main.3584f99e.js",
+    "index.html": "/YuvrajBhardawaj/Contact_Manager.git/index.html",
+    "main.764036a6.css.map": "/YuvrajBhardawaj/Contact_Manager.git/static/css/main.764036a6.css.map",
+    "main.3584f99e.js.map": "/YuvrajBhardawaj/Contact_Manager.git/static/js/main.3584f99e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.764036a6.css",
+    "static/js/main.3584f99e.js"
+  ]
+}
