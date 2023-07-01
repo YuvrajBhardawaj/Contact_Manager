@@ -11,7 +11,7 @@ export class ContactCard extends PureComponent {
 
     return (
       <div className="row list">
-        <div className="d-flex flex-column">
+        <div className="d-flex flex-column individual">
           <div className="d-flex justify-content-between">
             <div>
               <img id="user" src={user} alt="user" />

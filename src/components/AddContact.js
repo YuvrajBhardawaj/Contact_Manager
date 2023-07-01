@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-
+import { Link } from "react-router-dom";
 export class AddContact extends PureComponent {
   state={FirstName:"",LastName:"",Phone:"",email:""};
   add=(e)=>{
@@ -70,9 +70,12 @@ export class AddContact extends PureComponent {
             </div>
           </div>
           <br />
-          <button type="submit" className="btn btn-primary" onClick={() => {document.getElementById("FN").value = "";document.getElementById("LN").value="";document.getElementById("E").value="";document.getElementById("PH").value=""}}>
-            Submit
+          <button type="submit" className="btn btn-primary" style={{margin:"5px"}} onClick={() => {document.getElementById("FN").value = "";document.getElementById("LN").value="";document.getElementById("E").value="";document.getElementById("PH").value=""}}>
+            Add
           </button>
+          <Link to={"/Contact_Manager"}>
+            <button className='btn btn-dark' style={{margin:"5px"}}>Back To Contact List</button>
+          </Link>
         </form>
       </div>
     );
